@@ -1,0 +1,60 @@
+.piloto-card img {
+    transition: transform 0.25s;
+}
+.piloto-card img:hover {
+    transform: scale(1.12);
+}
+/* Fuente personalizada */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+footer {
+    background: #18191a;
+    color: #ffd600;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+.piloto-card {
+    transition: box-shadow 0.25s, transform 0.25s;
+}
+.piloto-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    z-index: 2;
+    margin: 20px 24px;
+}
+.piloto-card img {
+    transition: transform 0.25s;
+}
+.piloto-card:hover img {
+    transform: scale(1.12);
+}
+@media (max-width: 600px) {
+    .piloto-card {
+        margin: 20px 10px;
+    }
+    .piloto-card:hover {
+        transform: scale(1.03);
+        margin: 20px 10px;
+    }
+}

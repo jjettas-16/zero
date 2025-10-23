@@ -1,0 +1,117 @@
+/* Enlaces del header: color gris al hacer hover */
+header a {
+    color: #ffd600;
+    transition: color 0.2s;
+}
+header a:hover {
+    color: #bdbdbd;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+footer a {
+    color: #ff69b4 !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+footer{
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+    margin-top: auto;
+}
+
+
+body{
+     font-family: sans-serif;
+     margin: 0;
+}
+/*madre paara el margen */
+
+/*camiar color de los enlaces*/
+/* Enlaces normales */
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s;
+}
+/* Enlaces hover: gris */
+a:hover {
+    color: gray;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+
+    
+}
+ 
+.f1.png {
+    height: 50px;
+    align-items: center;
+}img.f1 {
+  width: 50px;   /* ajusta el ancho */
+  height: 50px;  /* ajusta la altura */
+  object-fit: contain; /* mantiene la proporción */
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+color: grey;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+@media (max-width: 576px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    img.f1 {
+        width: 40px;   /* ajusta el ancho */
+        height: 40px;  /* ajusta la altura */
+    }
+}

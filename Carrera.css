@@ -1,0 +1,223 @@
+/* Estilos básicos */
+body {
+    background-color: #2c2c2c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffd600;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #ffd600;
+    font-size: 2em;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+h3 {
+    color: #4ecdc4;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color:#ff69b4; ;
+    margin-bottom: 10px;
+}
+
+/* Tarjeta de introducción */
+.intro-card {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #23272a;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.intro-card:hover {
+    transform: scale(1.02);
+}
+
+/* Sesiones de carrera */
+.session-card {
+    background: #000;
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    transition: transform 0.3s ease;
+}
+
+.session-card:hover {
+    transform: scale(1.05);
+}
+
+.session-img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin: 15px 0;
+    transition: transform 0.3s ease;
+}
+
+.session-card:hover .session-img {
+    transform: scale(1.1);
+}
+
+/* Calificación */
+.qualy-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.step {
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: scale(1.1);
+}
+
+/* Día de carrera */
+.race-day {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    background: #333;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+    transform: scale(1.03);
+}
+
+/* Estrategias */
+.strategy-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.strategy-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.strategy-card:hover {
+    transform: scale(1.1);
+}
+
+/* Puntos */
+.points-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.point-item {
+    background: #ffd600;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.point-item:hover {
+    transform: scale(1.1);
+}
+
+.point-bonus {
+    grid-column: span 5;
+    background: #4ecdc4;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Safety car */
+.safety-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.safety-item {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.safety-item:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #18191a;
+    color: #ffd600;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-center {
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .qualy-steps,
+    .strategy-cards,
+    .points-grid,
+    .safety-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .point-bonus {
+        grid-column: span 1;
+    }
+}

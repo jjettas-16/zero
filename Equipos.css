@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #ffd600;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+footer a {
+    color: #ff69b4 !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+footer{
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+    margin-top: auto;
+}
+
+.equipo-card {
+    background: #2f3133;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    margin: 30px auto;
+    padding: 24px 18px;
+    max-width: 500px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.equipo-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    z-index: 2;
+    margin: 25px auto; /* Margen reducido para efecto de agrandamiento */
+    padding: 28px 22px; /* Padding aumentado */
+}
+
+.equipo-card img {
+    transition: transform 0.4s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.equipo-card:hover img {
+    transform: scale(1.15);
+}
+@media (max-width: 600px) {
+    .equipo-card {
+        margin: 20px 10px;
+    }
+    .equipo-card:hover {
+        transform: scale(1.03);
+        margin: 20px 10px;
+        padding: 26px 20px; /* Ajuste de padding para móviles */
+    }
+}
