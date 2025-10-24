@@ -163,6 +163,19 @@ a:hover {
     color: gray;
 }
 
+/* NUEVO: Estilos para el menú de navegación en amarillo */
+.main-nav a {
+    color: #ffd600 !important;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 20px;
+    transition: color 0.2s;
+}
+
+.main-nav a:hover {
+    color: #bdbdbd !important;
+}
+
 /* Estilos para la imagen F1 en el header */
 img.f1 {
     width: 50px;
