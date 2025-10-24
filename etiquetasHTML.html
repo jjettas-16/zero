@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>EtiquetasHtml</title>
+        <style>
+            /* Estilos generales del cuerpo */
+            body {
+                background-color: #1a1a1a; /* Fondo oscuro elegante */
+                color: #f0f0f0; /* Texto claro para contraste */
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+
+            table, th, td {
+                border: 1px solid #444;
+                border-collapse: collapse;
+                text-align: center;
+            }
+
+            table {
+                width: 90%;
+                max-width: 1000px;
+                margin: auto;
+                background-color: #2a2a2a;
+                font-size: 14px;
+            }
+
+            .table-title {
+                background-color: #c0a062;
+                color: #1a1a1a;
+                font-size: 4rem;
+                font-weight: bold;
+            }
+
+            .table-header th {
+                background-color: #383838;
+                color: #e0e0e0;
+                font-size: 1.2rem;
+            }
+            tr td:nth-child(3) {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <table>
+                <tr>
+                    <th colspan="3" class="table-title">Etiquetas HTML</th>
+                </tr >
+                <tr class="table-header">
+                    <th>Etiquetas</th>
+                    <th>Descripción</th>
+                    <th>Ejemplo</th>
+                </tr>
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>Indica donde inicia la pagina web</td>
+                    <td>&lt;html&gt;...&lt;/html&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>Contiene lo no visible pero importante</td>
+                    <td>&lt;head&gt;...&lt;/head&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;title&gt;</td>
+                    <td>Titulo de la pestaña del navegador</td>
+                    <td>&lt;title&gt;HealthTrack&lt;/title&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt;</td>
+                    <td>Contiene lo que si es visible <br>(texto, imagenes, videos, etc.)</td>
+                    <td>&lt;body&gt;...&lt;/body&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt; a &lt;h2&gt;</td>
+                    <td>Titulos o subtitulos por nivel de importancia</td>
+                    <td>&lt;h1&gt;Monitor de habitos saludables&lt;/h1&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Es para parrafos, sirve para escribir textos</td>
+                    <td>&lt;p&gt;Hola mundo&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Enlaces o hipervinculos</td>
+                    <td>&lt;a href="#"&gt;Ejemplo&lt;/a&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>Inserta imagenes segun su ruta</td>
+                    <td>&lt;img src="imagenes/kiwano.jpg"&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;br&gt;</td>
+                    <td>Salto de linea</td>
+                    <td>&lt;p&gt;hola&lt;br&gt;mundo&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;b&gt; y &lt;strong&gt;</td>
+                    <td>Texto en negrita</td>
+                    <td>&lt;p&gt;&lt;b&gt;Hola&lt;/b&gt; mundo&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;i&gt;</td>
+                    <td>Texto en cursiva</td>
+                    <td>&lt;cursiva&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td>Texto enfatizado</td>
+                    <td>&lt;em&gt;Enfatizado&lt;/em&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;mark&gt;</td>
+                    <td>Texto marcado</td>
+                    <td>&lt;p&gt;Hola&lt;mark&gt; mundo&lt;/mark&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;small&gt;</td>
+                    <td>Texto más pequeño</td>
+                    <td>&lt;small&gt;pequeño&lt;/small&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;del&gt;</td>
+                    <td>Texto eliminado</td>
+                    <td>&lt;p&gt; hola&lt;del&gt; mundo&lt;/del&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;ins&gt;</td>
+                    <td>Texto insertado</td>
+                    <td>&lt;p&gt; hola&lt;ins&gt; mundo&lt;/ins&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>&lt;sub&gt;</td>
+                    <td>Texto subíndice</td>
+                    <td>&lt;p&gt;Hola&lt;sub&gt;Mundo&lt;/sub&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;sup&gt;</td>
+                    <td>Texto superíndice</td>
+                    <td>&lt;p&gt;Hola&lt;sup&gt;Mundo&lt;/sup&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                    <td>Lista desordenada</td>
+                    <td rowspan="2">&lt;ul&gt;<br>&lt;li&gt;Primero&lt;/li&gt;<br>&lt;li&gt;Segundo&lt;/li&gt;<br>&lt;/ul&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;li&gt;</td>
+                    <td>Cada elemento de una lista</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Contenedor genérico en bloque para agrupar elementos</td>
+                    <td>&lt;div&gt;...&lt;/div&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>Para vincular a una hoja css</td>
+                    <td>&lt;link rel="stylesheet" type="text/css" href="estilo.css"&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Encabezado del documento</td>
+                    <td>&lt;header&gt;...&lt;/header&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Pie de página del documento</td>
+                    <td>&lt;footer&gt;...&lt;/footer&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt;</td>
+                    <td>Contenido principal del documento</td>
+                    <td>&lt;main&gt;...&lt;/main&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;blockquote&gt;</td>
+                    <td>Define una seccion que se cita en otra fuente</td>
+                    <td>&lt;blockquote cite="#"&gt;...&lt;/blockquote&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;q&gt;</td>
+                    <td>Define una cita corta</td>
+                    <td>&lt;p&gt;hola&lt;q&gt;mundo&lt;/q&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;abbr&gt;</td>
+                    <td>Define una abreviatura o acronimo</td>
+                    <td>&lt;p&gt;&lt;abbr title="Hola Mundo"&gt;HM&lt;/abbr&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;address&gt;</td>
+                    <td>Define información de contacto del autor <br>de un documento o articulo</td>
+                    <td>&lt;address&gt;Written by Alvizo&lt;br&gt;CBTis#49&lt;/address&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;cite&gt;</td>
+                    <td>Define el titulo de una obra creativa</td>
+                    <td>&lt;p&gt;&lt;cite&gt;El viaje al centro de la tierra&lt;/cite&gt; by Julio Verne.&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;bdo&gt;</td>
+                    <td>Anular la dirección del texto actual</td>
+                    <td>&lt;bdo dir="rtl"&gt;odnum aloh&lt;/bdo&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;meta&gt;</td>
+                    <td>Define metadatos sobre el documento</td>
+                    <td>&lt;meta charset="UTF-8"&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>Contener enlaces de navegación</td>
+                    <td>&lt;nav&gt;...&lt;/nav&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;ol&gt;</td>
+                    <td>Una lista HTML ordenada</td>
+                    <td>&lt;ol&gt;<br>&lt;li&gt;Primero&lt;/li&gt;<br>&lt;li&gt;Segundo&lt;/li&gt;<br>&lt;/ol&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;dl&gt;</td>
+                    <td>Una lista de productos</td>
+                    <td rowspan="3" style="text-align: left;">&lt;dl&gt;<br>&lt;dt&gt;Café&lt;/dt&gt;<br>&lt;dd&gt;Bebida negra caliente&lt;/dd&gt;<br>&lt;dt&gt;Leche&lt;/dt&gt;<br>&lt;dd&gt;bebida blanca fria&lt;/dd&gt;<br>&lt;/dl&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;dt&gt;</td>
+                    <td>Producto</td>
+                </tr>
+                <tr>
+                    <td>&lt;dd&gt;</td>
+                    <td>Descripción</td>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Define una tabla</td>
+                    <td rowspan="3" style="text-align: left;">&lt;table&gt;<br>&lt;tr&gt;<br>&lt;td&gt;Celda 1&lt;/td&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;</td>
+                 </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Define una fila en una tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Define una celda en una tabla</td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
