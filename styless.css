@@ -1,88 +1,18 @@
-/* Enlaces del header: color gris al hacer hover */
-header a {
-    color: #ffd600;
-    transition: color 0.2s;
-}
-header a:hover {
-    color: #bdbdbd;
+/* Reset y estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100;
-}
-footer a {
-    color: #ff69b4 !important;
-    text-decoration: none !important;
-    font-weight: bold;
-    font-size: 1.1em;
-    transition: color 0.2s;
-}
-footer a:hover {
-    color: #fff !important;
-    text-decoration: none !important;
-}
-footer{
-    width: 100%;
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 15px 0 10px 0;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
-    margin-top: auto;
+body {
+    background-color: #23272a;
+    color: #fff;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    margin: 0;
 }
 
-
-body{
-     font-family: sans-serif;
-     margin: 0;
-}
-/*madre paara el margen */
-
-/*camiar color de los enlaces*/
-/* Enlaces normales */
-a{
-    text-decoration: none;
-    color: white;
-    transition: color 0.2s;
-}
-/* Enlaces hover: gris */
-a:hover {
-    color: gray;
-}
-
-header {
-    display: flex;
-    height: 70px;
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    color: white;
-
-    
-}
- 
-.f1.png {
-    height: 50px;
-    align-items: center;
-}img.f1 {
-  width: 50px;   /* ajusta el ancho */
-  height: 50px;  /* ajusta la altura */
-  object-fit: contain; /* mantiene la proporción */
-}
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-}
-
-nav a:hover{
-color: grey;
-}
-
+/* Fuente personalizada */
 @font-face {
     font-family: 'Bebas Neue';
     src: url('BebasNue-Regular.ttf') format('truetype');
@@ -90,28 +20,189 @@ color: grey;
     font-style: normal;
 }
 
-body {
-    font-family: 'Bebas Neue', Arial, sans-serif;
+/* HEADER */
+.main-header {
+    background: #18191a;
+    color: #fff;
+    padding: 20px 40px;
 }
 
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.f1-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+.site-title {
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Enlaces del menú (amarillos) a la derecha */
+.menu-links {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-links a {
+    color: #ffd600;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.menu-links a:hover {
+    color: #bdbdbd;
+}
+
+/* Navegación */
+.main-nav {
+    margin-top: 10px;
+}
+
+.nav-title {
+    margin: 0;
+}
+
+/* CONTENIDO PRINCIPAL */
+.welcome-container {
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+    background: #282b30;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+    padding: 32px 28px;
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 2em;
+    margin-bottom: 18px;
+    color: #ffd600;
+    letter-spacing: 1px;
+}
+
+.welcome-text {
+    font-size: 1.15em;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+/* LOGO CENTRAL */
+.logo-center {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.center-logo {
+    width: 120px;
+    height: auto;
+    opacity: 0.85;
+    filter: grayscale(30%);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+}
+
+/* FOOTER */
+.main-footer {
+    background: #18191a;
+    color: #ffd600;
+    text-align: center;
+    padding: 18px 0 10px 0;
+    margin-top: 40px;
+    font-size: 1.1em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+}
+
+.footer-text {
+    margin-bottom: 8px;
+}
+
+.footer-link {
+    color: #ff69b4 !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+
+.footer-link:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/* Estilos generales para enlaces */
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* Estilos para la imagen F1 en el header */
+img.f1 {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Responsive */
 @media (max-width: 576px) {
-    header {
+    .header-top {
         flex-direction: column;
-        height: auto;
         text-align: center;
+        gap: 15px;
     }
     
-    nav ul {
+    .logo-title {
         flex-direction: column;
-        padding: 0;
+        gap: 10px;
     }
     
-    nav ul li {
-        margin: 5px 0;
+    .menu-links {
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
-    img.f1 {
-        width: 40px;   /* ajusta el ancho */
-        height: 40px;  /* ajusta la altura */
+    .site-title {
+        font-size: 2.2em;
+    }
+    
+    .f1-logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .welcome-container {
+        margin: 20px 15px 0 15px;
+        padding: 20px 15px;
+    }
+    
+    .main-footer {
+        position: relative;
     }
 }
