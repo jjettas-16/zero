@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Libros - Crepúsculo</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			nav {
+				background-color: #d8c8c8;
+				display: flex;
+				justify-content: center;
+			}
+			nav a {
+				color:#800020;
+				background: linear-gradient(90deg, #ffffff 40%, #ffffff 100%);
+				padding: 16px 32px;
+				margin: 10px;
+				border-radius: 25px;
+				font-size: 1.1em;
+				font-weight: bold;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+				transition: background 0.3s, color 0.3s, transform 0.2s;
+				display: inline-block;
+			}
+			nav a:hover {
+				background: linear-gradient(90deg, #d8c8c8 40%, #800020 100%);
+				color: #800020;
+				transform: scale(1.08);
+				box-shadow: 0 6px 18px rgba(128,0,32,0.25);
+			}h1{
+ color: #800020;
+}h2{
+ color: #800020;
+}p{color: #800020;}strong{color: #800020;}
+		</style>
+</head><center>
+<body style="background-color:#d8c8c8;">
+		<nav>
+		 <a href="index.html">inicio</a>
+			<a href="personajes.html">Personajes</a>
+			<a href="peliculas.html">Películas</a>
+		</nav>
+		<h1>Libros de la Saga Crepúsculo</h1>
+	
+
+	<center><img src="crepusculo_libro.jpg" alt="no disp" title="libro de la obra"></center>
+	<section>
+		<h2>Crepúsculo (Twilight)</h2>
+		<p><strong>Autora:</strong> Stephenie Meyer</p>
+		<p><strong>Año de publicación:</strong> 2005</p>
+		<p><strong>Sinopsis:</strong> Bella Swan se muda a Forks y conoce a Edward Cullen, un misterioso joven que resulta ser un vampiro.</p>
+	</section>
+	<section>
+		<h2>Luna Nueva (New Moon)</h2>
+		<center><img  src="https://tse3.mm.bing.net/th/id/OIP.r4aRB6nraQi9Sy2RP8uYtwAAAA?pid=ImgDet&w=191&h=282&c=7&o=7&rm=3" alt="no disp" title="libro de la obra"></center>
+		<p><strong>Autora:</strong> Stephenie Meyer</p>
+		<p><strong>Año de publicación:</strong> 2006</p>
+		<p><strong>Sinopsis:</strong> Edward abandona a Bella para protegerla, y ella encuentra consuelo en su amigo Jacob Black, quien guarda un secreto propio.</p>
+	</section>
+	<section>
+		<h2>Eclipse</h2>
+ 
+		<center><img  src="https://th.bing.com/th/id/OIP.fRwfODP5ALnc18X3qnQTjAAAAA?w=184&h=281&c=7&r=0&o=7&pid=1.7&rm=3" alt="no disp" title="libro de la obra"></center>
+	
+		<p><strong>Autora:</strong> Stephenie Meyer</p>
+		<p><strong>Año de publicación:</strong> 2007</p>
+		<p><strong>Sinopsis:</strong> Bella debe elegir entre su amor por Edward y su amistad con Jacob, mientras una amenaza se cierne sobre Forks.</p>
+	</section>
+	<section>
+		<h2>Amanecer (Breaking Dawn)</h2>
+		<center><img  src="https://th.bing.com/th/id/OIP.d6UQ7Or-5SI4sbbebcCrBwHaHa?w=184&h=184&c=7&r=0&o=7&pid=1.7&rm=3" alt="no disp" title="libro de la obra"></center>
+		
+		<p><strong>Autora:</strong> Stephenie Meyer</p>
+		<p><strong>Año de publicación:</strong>2008</p>
+		<p><strong>Sinopsis:</strong> Bella y Edward enfrentan nuevos desafíos tras su boda y el nacimiento de su hija Renesmee.</p>
+	</section>
+<footer>
+	<p>&copy; 2025 TWILIGHT. Todos los derechos reservados.</p>
+</footer>
+ <center>
+	<center>
+</body>
+</html>
